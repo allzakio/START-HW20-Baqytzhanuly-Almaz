@@ -12,6 +12,8 @@
 		C1CF7F1D2AA73393002B877A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CF7F1C2AA73393002B877A /* ViewController.swift */; };
 		C1CF7F222AA73394002B877A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CF7F212AA73394002B877A /* Assets.xcassets */; };
 		C1CF7F252AA73394002B877A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CF7F232AA73394002B877A /* LaunchScreen.storyboard */; };
+		C1CF7F2D2AA735AD002B877A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CF7F2C2AA735AD002B877A /* Card.swift */; };
+		C1CF7F2F2AA78B9E002B877A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CF7F2E2AA78B9E002B877A /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C1CF7F212AA73394002B877A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1CF7F242AA73394002B877A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1CF7F262AA73394002B877A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CF7F2C2AA735AD002B877A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C1CF7F2E2AA78B9E002B877A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				C1CF7F182AA73393002B877A /* AppDelegate.swift */,
 				C1CF7F1A2AA73393002B877A /* SceneDelegate.swift */,
 				C1CF7F1C2AA73393002B877A /* ViewController.swift */,
+				C1CF7F2C2AA735AD002B877A /* Card.swift */,
+				C1CF7F2E2AA78B9E002B877A /* NetworkManager.swift */,
 				C1CF7F212AA73394002B877A /* Assets.xcassets */,
 				C1CF7F232AA73394002B877A /* LaunchScreen.storyboard */,
 				C1CF7F262AA73394002B877A /* Info.plist */,
@@ -136,7 +142,9 @@
 			files = (
 				C1CF7F1D2AA73393002B877A /* ViewController.swift in Sources */,
 				C1CF7F192AA73393002B877A /* AppDelegate.swift in Sources */,
+				C1CF7F2F2AA78B9E002B877A /* NetworkManager.swift in Sources */,
 				C1CF7F1B2AA73393002B877A /* SceneDelegate.swift in Sources */,
+				C1CF7F2D2AA735AD002B877A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
